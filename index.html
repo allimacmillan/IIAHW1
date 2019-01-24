@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <title> </title>
+    <link rel="stylesheet" href="phone.css">
+  </head>
+  <body>
+    <div id="tab_bar">
+      <button class="tab" id="tab_1_button" style="font-size : 40px;">Dialer</button>
+      <button class="tab" id="tab_2_button" style="font-size : 40px;">Contact List</button>
+      <button class="tab" id="tab_3_button" style="font-size : 40px;">Add Contact</button>
+    </div>
+    <div id="content">
+      <div id="dialer">
+        <button class="number" id="one" style="font-size : 20px;">1</button>
+        <button class="number" id="two" style="font-size : 20px;">2</button>
+        <button class="number" id="three" style="font-size : 20px;">3</button>
+        <p></p>
+        <button class="number" id="four" style="font-size : 20px;">4</button>
+        <button class="number" id="five" style="font-size : 20px;">5</button>
+        <button class="number" id="six" style="font-size : 20px;">6</button>
+        <p></p>
+        <button class="number" id="seven" style="font-size : 20px;">7</button>
+        <button class="number" id="eight" style="font-size : 20px;">8</button>
+        <button class="number" id="nine" style="font-size : 20px;">9</button>
+        <p></p>
+        <button class="number" id="star" style="font-size : 20px;">*</button>
+        <button class="number" id="zero" style="font-size : 20px;">0</button>
+        <button class="number" id="pound" style="font-size : 20px;">#</button>
+      </div>
+
+
+      <div id="contacts">
+        <table>
+          <tr>
+            <td style="font-size : 40px;">Mom</td>
+            <td style="font-size : 40px;">Dad</td>
+            <td style="font-size : 40px;">Natalie</td>
+          </tr>
+          <tr>
+            <td style="font-size : 40px;">Taylor</td>
+            <td style="font-size : 40px;">Matt</td>
+            <td style="font-size : 40px;">Hans</td>
+          </tr>
+          <tr>
+            <td style="font-size : 40px;">Oskar</td>
+            <td style="font-size : 40px;">Lauren</td>
+            <td style="font-size : 40px;">Megan</td>
+          </tr>
+          <tr>
+            <td style="font-size : 40px;">Elly</td>
+            <td style="font-size : 40px;">Jane</td>
+            <td style="font-size : 40px;">Mara</td>
+          </tr>
+          <tr>
+            <td style="font-size : 40px;">Molly</td>
+            <td style="font-size : 40px;">Georgia</td>
+            <td style="font-size : 40px;">Tyler</td>
+          </tr>
+        </table>
+      </div>
+
+
+      <div id="add_contact">
+        <form>
+          Name: <input type="text"></input> <br>
+          Phone Number: <input type="text"></input> <br>
+          Email: <input type="text"></input> <br>
+          <input type="submit" id="submit"></input>
+        </form>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="phone.js"></script>
+  </body>
+</html>
